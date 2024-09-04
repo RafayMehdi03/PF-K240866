@@ -1,0 +1,161 @@
+K24-0866
+Syed Rafay Mehdi
+PSUEDOCODES
+
+Q1)
+START
+
+DECLARE x,y,z : INTEGER
+INPUT x
+INPUT y
+INPUT z
+IF x >= y AND x >= z
+  THEN
+    PRINT "x Is the greatest"
+ELSE
+  IF y >= z AND y >= x 
+    THEN
+      PRINT "x Is the greatest"
+  ELSE
+      PRINT "z Is the greatest"
+
+END
+
+
+Q2)
+START
+
+DECLARE a,b,c,Sum : INTEGER
+INPUT a
+INPUT b
+INPUT c
+Sum = a - (-b) -(-c)
+PRINT Sum
+
+END
+
+
+Q3)
+START
+
+DECLARE num1,num2,Result : INTEGER
+DECLARE operator : CHAR
+PRINT "Enter 2 Num"
+INPUT num1
+INPUT num2
+PRINT "Enter operator + or -"
+INPUT operator
+IF operator == "+"
+   THEN 
+     Result = num1 + num2
+     PRINT Result
+ELSE
+   IF operator == "-"
+     THEN
+       Result = num1 - num2
+       PRINT Result
+
+END
+
+
+ALGORITHMS
+
+Q1) 
+.Take as input the number who's divisors needs to be calculated
+.Set a variable named divisor to 1
+.Check if Number MOD divisor is 0
+.If true then print this divisor
+.If false then do not print and move on to the next step
+.Increment the divisor by 1
+.Repeat from the 3rd step until the divisor is greater than the Number
+
+Q2)
+.Take as input a number that has to be between 1 and 12 inclusive
+.If number is 1 output January
+.If number is 2 output February
+.If number is 3 output March
+.If number is 4 output April
+.If number is 5 output May
+.If number is 6 output June
+.If number is 7 output July
+.If number is 8 output August
+.If number is 9 output September
+.If number is 10 output October
+.If number is 11 output November
+.If number is 12 output December
+
+Q3)
+.Take 2 numbers as input Num1 and Num2
+.Take an operator as input from(+,-,*,/,%)
+.If operator is + then Result = Num1 + Num2
+.Else if operator is - then Result = Num1 - Num2
+.Else if operator is * then Result = Num1 * Num2
+.Else if operator is / then Result = Num1 / Num2
+.Else if operator is % then Result = Num1 % Num2
+.Output Result
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
