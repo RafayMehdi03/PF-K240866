@@ -1,0 +1,3 @@
+firstly the code checks if 5 is greater than 8 which is not so it skips the part after ? and comes to the part after :
+here it checks if 1 is not equals to 2 which is true so it returns 1. then it compares if 1 is lesser than 5 which is true so it assigns 20 to variable x.
+then it prints the value of x so the output is 30
